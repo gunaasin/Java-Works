@@ -6,8 +6,6 @@ class fun{
         int c = a*b;
         return c;
     }
-
-
 }
 
 class Method2 {
