@@ -1,12 +1,12 @@
 class fun{
 	int a = 10;
 	int b = 29;
+
 	int add()
 	{
 		int c = a*b;
 		return c;	
 	}
-
 
 }
 
