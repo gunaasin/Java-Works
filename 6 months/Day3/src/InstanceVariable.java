@@ -1,38 +1,29 @@
-// Instance variable
-// *>> Instance variable directly create inside class
-// *>> Instance variable memory allocated in heap segment
-// *>> JVM Allocate default values
+import java.util.Scanner;
 
-
-
-class main{
+class Car {
     String name;
-    int age;
-    boolean hasPassport;
+    double cost;
 }
-
 public class InstanceVariable {
-    public static void main(String[] args)
-    {
-         main identiy = new main();
-         System.out.println(identiy.name);
-         System.out.println(identiy.age);
-         System.out.println(identiy.hasPassport);
+    public static void main (String[] args){
+        Scanner scan = new Scanner(System.in);
 
-         //   JVM Allocated default values
+        System.out.print("Enter how many cars you have :");
+        int count = scan.nextInt();
+        Car[] a = new Car[count];
 
-        System.out.println("-------------------------------------------------------------------");
+         for(int i=0 ; i<a.length;i++){
+            System.out.print("Enter car name : ");
+            a[i] = new Car();
+            a[i].name = scan.next();
+            System.out.print("Enter car price : ");
+            a[i].cost= scan.nextDouble();
+         }
 
-        identiy.name = "Guna";
-        identiy.age = 21;
-        identiy.hasPassport = true;
+         for(int i=0 ; i<a.length;i++){
+            System.out.println("Enter car name : " +  a[i].name);
+            System.out.println("Enter car price : " + a[i].cost);
+         }System.out.println();
 
-        System.out.println(identiy.name);
-        System.out.println(identiy.age);
-        System.out.println(identiy.hasPassport);
     }
 }
-
-
-
-
