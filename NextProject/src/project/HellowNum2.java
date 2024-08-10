@@ -1,7 +1,6 @@
 package project;
 
 import java.util.Scanner;
-
 public class HellowNum2 {
 
 	public static void main(String[] args) {
@@ -18,6 +17,7 @@ public class HellowNum2 {
 					System.out.print("  ");
 				}
 			}
+			
 			for(j=1;j<=n-n+1;j++) {
 					System.out.print(n+ " ");
 			}
