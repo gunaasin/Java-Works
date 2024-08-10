@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Array/src"/>
+	<classpathentry kind="src" path="Day 1"/>
+	<classpathentry kind="src" path="Day 2"/>
+	<classpathentry kind="src" path="Day3/src"/>
+	<classpathentry kind="src" path="Day4"/>
+	<classpathentry kind="src" path="Day4.1/src"/>
+	<classpathentry kind="src" path="Day6/src"/>
+	<classpathentry kind="src" path="Day7"/>
+	<classpathentry kind="src" path="Day 8"/>
+	<classpathentry kind="src" path="Day 9/src"/>
+	<classpathentry kind="src" path="next"/>
+	<classpathentry kind="output" path="Array/out/production/Day5"/>
+</classpath>

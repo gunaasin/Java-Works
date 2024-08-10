@@ -1,23 +1,18 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-      String s1 = "JAVA";
-      String s2 = new String("JAVA");
 
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
 
-      String s4 = s2.concat(s1);
-      System.out.println(s4);
-     String s3 = s2.toUpperCase();
-      if(s1==s2) {
-          System.out.println("Same");
-      }else{
-          System.out.println("Different");
-      }
+        for (int i = 1; i <= n; i++) {
+            int num = i;
+            for (int j = 1; j <= (n - i + 1); j++) {
+                System.out.print(num++);
+            }
+            System.out.println();
 
-      if(s1.equals(s2)) {
-          System.out.println("Same");
-
-      }else {
-          System.out.println("Different");
-      }
+        }
     }
-}
+    }
