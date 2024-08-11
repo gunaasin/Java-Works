@@ -1,4 +1,4 @@
-package project;
+package day11;
 
 import java.util.Scanner;
 public class HellowNum2 {
