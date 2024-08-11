@@ -11,6 +11,7 @@ public class AngleNumStar {
 		for( i=1;i<=n;i++) {
 			int count = i*(i+1)/2;
 			for(j=1;j<=i;j++) {
+				
 //				if(j<i) {
 //					System.out.print(count-j+1 + " * ");
 //				}else {
