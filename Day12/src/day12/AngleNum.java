@@ -12,12 +12,12 @@ public class AngleNum {
 			for(i=1 ; i<=n ; i++) {
 				for(j=1;j<=i;j++) {
 					if(num<10) {
-						System.out.print("0"+ num + " ");
+						System.out.print("0"+ num++ + " ");
 					}else {
-						System.out.print(num + " ");
+						System.out.print(num++ + " ");
 					}
 					
-					num++;
+				
 				}System.out.println();
 			}
 	}
