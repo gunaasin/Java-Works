@@ -16,9 +16,9 @@ static String angryProfesser(int k,int[] a)
 			}	
 		}
 		if(count >=k) {
-			return "NO";
+			return "THE CLASS START";
 		}else {
-			return "YES";
+			return "THE CLASS STOPED";
 		}
 	}
 
