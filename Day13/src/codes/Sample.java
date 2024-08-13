@@ -31,9 +31,27 @@ public class Sample {
 	    if (c%5==0) {
 	    	System.out.println("yes");
 	    }
-	    else {
+	    else  {
 	    	System.out.println("No");
 	    }
+	    
+	    
+	    
+	    if(c%10==0) {
+	    	System.out.println("it also 2 and 5 divisible");
+	    }
+	    else if (c%2==0) {
+	    	System.out.println("its 2 divisible");
+	    }
+	    else if(c%5==0)  {
+	    	System.out.println("ist 5 divisible");
+	    }
+	    
+	    
+	    
+	    int num = 12345;
+	    int num2 = num/1000;
+	    System.out.println(num2);
 	}
 
 }
