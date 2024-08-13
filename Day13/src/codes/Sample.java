@@ -17,11 +17,23 @@ public class Sample {
 	
 	
 	    double a = 18.2324232323423432;
+//	    float only convert after . 5 digit , double to float
 	    float b = (float) a;
         
 	    System.out.println(b);
 //	     if convert after . only 2 digit ----> System.out.printf("%.5f",b);
 	    System.out.printf("%.2f",b);
+	    System.out.println();
+	    
+	    
+	    
+	    
+	    if (c%5==0) {
+	    	System.out.println("yes");
+	    }
+	    else {
+	    	System.out.println("No");
+	    }
 	}
 
 }
