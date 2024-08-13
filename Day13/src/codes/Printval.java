@@ -23,7 +23,7 @@ static String angryProfesser(int k,int[] a)
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	// TODO Auto-generated method stub
 	Scanner scan = new Scanner(System.in);
 	
 	int n = scan.nextInt();
