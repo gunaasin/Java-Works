@@ -10,7 +10,16 @@ public class Program3 {
 		int b = scan.nextInt();
 		
 		for(int i=a;i<=b;i++) {
-			System.out.println(i);
+//			System.out.println(i);
+			
+			
+//			i%3==0 && i%5==0  ----> simplified version i%15==0 
+			if(i%15==0) {   
+				System.out.println(i);	
+			}
+//			Find even number between two numbers
+			
+//			System.out.println(i%2==0?i:"");
 		}
 	}
 
