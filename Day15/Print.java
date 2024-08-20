@@ -4,6 +4,7 @@ public class Print {
 	
 	static String upperCase(String n) {
 	
+//		using StingBuilder 
 		
 		StringBuilder newWord = new StringBuilder();
 		
