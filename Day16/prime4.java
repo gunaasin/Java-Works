@@ -3,10 +3,11 @@ import java.util.Scanner;
 public class prime4 {
 		static void isPrime(int n, int k) 
 		{
-			
 			for(int i=k;i<=n;i++)
-			{
-				
+			{   
+			if(k<2) {
+				break;
+			}
 				boolean isprime=true;
 				for(int j=2;j*j<=i;j++) 
 				{
@@ -28,6 +29,8 @@ public class prime4 {
 		
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
+		
+		
 		System.out.println("Enter the Starting number to find prime :");
 		int k = scan.nextInt();
 		System.out.println("Enter the Ending number :");
