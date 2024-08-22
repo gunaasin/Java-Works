@@ -14,6 +14,7 @@ public class hcf {
 	
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the number to find GCD or HCF");
 		int n1 = scan.nextInt();
 		int n2 = scan.nextInt();
 		findHCFactor(n1,n2);
