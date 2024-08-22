@@ -4,10 +4,9 @@ public class loopDoWhile {
 
 	public static void doWhileLoop(int g) {
 		int i =5;
-		do {
+		do{
 			System.out.println(i);
 			i++;
-			
 		}while(i<=g);
 	}
 	
