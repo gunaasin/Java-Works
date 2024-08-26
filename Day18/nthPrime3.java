@@ -10,8 +10,7 @@ public class nthPrime3 {
 			if(a%i==0 && b%i==0) {
 				System.out.println(i);
 			}
-		}
-		
+		}	
 	}
 	
 	
