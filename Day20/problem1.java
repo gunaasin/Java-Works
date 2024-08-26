@@ -7,7 +7,7 @@ public class problem1 {
 		int b=n2;
 		int min = a<b?a:b;	
 		int count = 0 , value = 1;
-		while(count <= value) 
+		while(count < value) 
 		{
 				if(a==b) 
 				{

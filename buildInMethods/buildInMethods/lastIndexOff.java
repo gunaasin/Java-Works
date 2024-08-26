@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class lastIndexOff {
     static int lastIndexOFF(String n , char ch , int k) {
     	int count = 0;
-		for (int i =n.length()-1;i>=0;i--)
+		for (int i =n.length()-1 ; i>=0 ; i--)
 		{
 			if(ch==n.charAt(i))
 			{
