@@ -30,14 +30,46 @@ public class problem1 {
 	}
 	
 	
+	public static void test1(int n) {
+		String m = Integer.toString(n);
+
+		int count = 0;
+		for(int i=0;i<m.length();i++) {			
+			count = count + (m.charAt(i)-'0');
+//			count += m.charAt(i) - '0';
+		}
+		System.out.println(count);
+	}
+	
+	
+	public static void test2(int n) {
+		
+		int num=0;
+		int res =0;
+		while(n!=0) {
+			res = n%10;
+			num = num+res;
+			n=n/10;
+		}
+		System.out.println(num);
+	}
+	
+	
+	
 	public static void main(String[] args)
 	{
 		Scanner scan = new Scanner(System.in);
+		char a = '1';
+		char b = '2';
 		
-		int n1 = scan.nextInt();
-		int n2 = scan.nextInt();
+		System.out.println((int)(a) +" " +(int)(b));
 		
-		System.out.println(process(n1 , n2));
+		int n = scan.nextInt();
+		test2(n);
+		test1(n);
+//		int n2 = scan.nextInt();
+		
+//		System.out.println(process(n1 , n2));
 
 	}
 
