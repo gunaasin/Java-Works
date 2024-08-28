@@ -32,18 +32,15 @@ public class problem1 {
 	
 	public static void test1(int n) {
 		String m = Integer.toString(n);
-
-		int count = 0;
+		int res = 0;
 		for(int i=0;i<m.length();i++) {			
-			count = count + (m.charAt(i)-'0');
-//			count += m.charAt(i) - '0';
+			res = res + (m.charAt(i)-'0');  //  res += m.charAt(i) - '0';
 		}
-		System.out.println(count);
+		System.out.println(res);
 	}
 	
 	
 	public static void test2(int n) {
-		
 		int num=0;
 		int res =0;
 		while(n!=0) {
@@ -59,10 +56,10 @@ public class problem1 {
 	public static void main(String[] args)
 	{
 		Scanner scan = new Scanner(System.in);
-		char a = '1';
-		char b = '2';
-		
-		System.out.println((int)(a) +" " +(int)(b));
+//		char a = '1';
+//		char b = '2';
+//		
+//		System.out.println((int)(a) +" " +(int)(b));
 		
 		int n = scan.nextInt();
 		test2(n);

@@ -6,7 +6,7 @@ public class nthPrime
 				int count = 0;
 				int val=1;
 				while(count<n) {
-					if(val%a==0 && val%b==0) {
+					if(val%a==0 && val%b==0 ) {
 						System.out.println(val);
 						count++;
 					}

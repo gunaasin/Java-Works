@@ -4,7 +4,7 @@ public class lcm {
 	
 	
 	
-	public static int findHighestCf(int n1,int n2) {
+	public static int findHighestCf(int n1,int n2) { // gcd
 		
 		int min = n1<n2 ? n1: n2 ; 
 		
@@ -12,10 +12,8 @@ public class lcm {
 			if(n1%i==0 && n2%i==0) {
 				System.out.println("GCD = "+ i);
 				return i;
-			}
-				
+			}	
 		}
-		
 		return 1;
 	}
 	
@@ -28,7 +26,8 @@ public class lcm {
 		
 		int hcf = findHighestCf(n1,n2);
 		
-		System.out.println("LCM = "+ (n1*n2)/hcf);
+		System.out.println("LCM = "+ (n1*n2)/hcf); // lcm formula
+		
 
 	}
 
