@@ -13,12 +13,9 @@ public class ProductOfArray {
 		
 		
 		int product =1;
-		
 		for(int i=0;i<ar.length;i++) {
 			product = product*ar[i];
 		}
-		
-		
 		System.out.println(product);
 	}
 }
