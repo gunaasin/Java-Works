@@ -4,20 +4,20 @@ public class LargestArrayValuetoIndex {
 	public static int findVal(int[] arr) {
 		
 		int max = arr[0];
+		int res = 0;
 		for(int i =0;i<arr.length;i++) 
 		{
-			max = max < arr[i] ? arr[i] : max ;
-	    }
-		
-		
-		
-		for(int i =0;i<arr.length;i++) 
-		{
-			if(arr[i] == max) {
-				return i;
+			if(max < arr[i]) {
+				max = arr[i];
+				res = i;
 			}
+			
 	    }
-		return 1;
+		return res ;
+		
+		
+		
+	
 	}
 	
 	public static void main(String[] args) {
