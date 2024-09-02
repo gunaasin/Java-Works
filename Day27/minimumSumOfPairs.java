@@ -1,23 +1,23 @@
 import java.util.Scanner;
 
-public class sumOfMaxInArrayPairs {
-
+public class minimumSumOfPairs {
+	
+	
 	public static int findVal(int[] ar) {
-		int max = ar[0];
-		int secondMax = Integer.MIN_VALUE;
+		int min = ar[0];
+		int secondMin = Integer.MAX_VALUE;
 		
 		for (int i = 1; i < ar.length; i++) {
 			
-			if(max<ar[i]) {
-				secondMax = max;
-				max = ar[i];
-			}else if(ar[i]>secondMax ) {
-				secondMax = ar[i];
+			if(min>ar[i]) {
+				secondMin = min;
+				min = ar[i];
+			}else if(ar[i]<secondMin ) {
+				secondMin = ar[i];
 			}
 		}
-		return max + secondMax ;
+		return min + secondMin ;
 	}
-	
 	
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
