@@ -29,9 +29,18 @@ public class minimumPairProduct {
 			}
 		}
 		int p2= max * secondMax ;
+		int p3 =min*max;
+		
+		if (p1<p2 && p1<p3) {
+			return p1;
+		}else if(p2<p1 && p2<p3) {
+			return p2;
+		}else {
+			return p3;
+		}
 		
 		
-		return p1>p2 ? p2 : p1;
+		
 	}
 
 	public static void main(String[] args) {
