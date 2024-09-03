@@ -4,7 +4,7 @@ public class PrintPairs {
 	
 	public static void printAns(int[] arr) 
 	{
-		for (int i = 0; i < arr.length-1; i++) // arr.length-1 is define by total length -1 because 
+		for (int i = 0; i < arr.length-1; i++) // arr.length-1 is define by total length -1 because last one not get any pairs 
 		{
 			for (int j = i+1; j < arr.length; j++) 
 			{
