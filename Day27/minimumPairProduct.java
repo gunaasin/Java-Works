@@ -28,6 +28,7 @@ public class minimumPairProduct {
 				secondMax = ar[i];
 			}
 		}
+		
 		int p2= max * secondMax ;
 		int p3 =min*max;
 		
