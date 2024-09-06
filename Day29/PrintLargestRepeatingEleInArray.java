@@ -24,9 +24,7 @@ public class PrintLargestRepeatingEleInArray {
 	}
 	
 	
-	
-	
-	
+
 	
 	
 	public static int findValue2(int[] arr){
@@ -40,10 +38,7 @@ public class PrintLargestRepeatingEleInArray {
 	}
 	
 	
-	
-	
-	
-	
+
 	
 	
 	public static void main(String[] args) {

@@ -26,6 +26,7 @@ public class test {
 		Scanner scan = new Scanner(System.in);
 		int n =scan.nextInt();
 		int[] ar =new int[n];
+		System.out.println(ar.length);
 		for (int i = 0; i < ar.length; i++) {
 			ar[i]=scan.nextInt();
 		}
