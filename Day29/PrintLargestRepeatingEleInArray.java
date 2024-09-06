@@ -23,6 +23,29 @@ public class PrintLargestRepeatingEleInArray {
 		return max;
 	}
 	
+	
+	
+	
+	
+	
+	
+	public static int findValue2(int[] arr){
+		
+		for (int i = arr.length-2; i >=0; i--) {
+			if(arr[i]==arr[i+1]) {
+				return arr[i];
+			}
+		}
+		return -1;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int n = scan.nextInt();
@@ -31,7 +54,8 @@ public class PrintLargestRepeatingEleInArray {
 			arr[i]=scan.nextInt();
 		}
 		
-		System.out.println(findValue(arr));;
+		System.out.println("Method 1 - "+findValue(arr));
+		System.out.println("Method 1 - "+findValue2(arr));
 	}
 
 }
