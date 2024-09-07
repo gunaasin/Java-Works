@@ -5,6 +5,8 @@ public class PrintElementBasedOnSortingFormat {
 		int i=0,j=0,k=0;
 		
 		int[] array = new int[ ar1.length+ar2.length];
+		
+		
 		while (i<ar1.length && j < ar2.length) {
 			if(ar1[i]<=ar2[j]) {
 				array[k++]=ar1[i++];
@@ -13,9 +15,16 @@ public class PrintElementBasedOnSortingFormat {
 			}
 		} 
 		
+//		remind elements stored hear !!!
+		
+		
 	    while (i < ar1.length) {
             array[k++] = ar1[i++];
         }
+	    
+	    
+
+	    
 	    while (j < ar2.length) {
             array[k++] = ar2[j++];
         }
