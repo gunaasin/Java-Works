@@ -9,7 +9,6 @@ public class missingElementfind {
 		int sum =0;
 		for (int i : arr) {
 			sum = sum + i;
-			
 		}
 		return naturalNumber-sum;
 	}
