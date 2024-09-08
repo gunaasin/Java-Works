@@ -23,11 +23,11 @@ public class PrintElementBasedOnSortingFormat {
         }
 	    
 	    
-
-	    
 	    while (j < ar2.length) {
             array[k++] = ar2[j++];
         }
+	    
+	    
 		return array;
 	}
 	public static void main(String[] args) {
