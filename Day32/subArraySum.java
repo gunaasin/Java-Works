@@ -11,7 +11,6 @@ public class subArraySum {
 			}
 			System.out.println("- "+sum);
 		}
-		
 	}
 
 	public static void main(String[] args) {
@@ -22,9 +21,6 @@ public class subArraySum {
 			arr[i]=scan.nextInt();
 		}
 		int k = scan.nextInt();
-		
-	findSubArraySum(arr, k);
-
+	    findSubArraySum(arr, k);
 	}
-
 }
