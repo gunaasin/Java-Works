@@ -14,6 +14,23 @@ public class ReverseSubArray {
 			}
 		}
 	}
+	
+	static void PrintReverseSubArraysIsEqualsToK(int[] arr , int s) {
+		for(int i=1;i<=arr.length;i++) {
+			for(int j=0;j<=arr.length-i;j++) {
+				int sum =0;
+				for(int k=j;k<i+j;k++) {
+					sum +=arr[k];
+				}
+				if(s==sum) {
+					for(int k=j;k<i+j;k++) {
+						sum +=arr[k];
+						
+					}
+				}
+			}
+		}
+	}
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -22,8 +39,10 @@ public class ReverseSubArray {
 		for (int i = 0; i < arr.length; i++) {
 			arr[i]=scan.nextInt();
 		}
+		int s =scan.nextInt();
 		
-		PrintReverseSubArrays(arr);
+//		PrintReverseSubArrays(arr );
+		PrintReverseSubArraysIsEqualsToK(arr, s);
 
 	}
 
