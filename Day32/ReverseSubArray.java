@@ -24,9 +24,9 @@ public class ReverseSubArray {
 				}
 				if(s==sum) {
 					for(int k=j;k<i+j;k++) {
-						sum +=arr[k];
+						System.out.print(arr[k] + " "); 
 						
-					}
+					}System.out.println();
 				}
 			}
 		}
