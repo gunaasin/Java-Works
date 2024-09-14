@@ -23,12 +23,9 @@ public class PrintLongestConsecutiveSubarray {
 			max = count;
 			la = i;
 		}
-		
-//		System.out.println(max +" "+la);
-		
+	
 		int res = (la -max)+1;
-		
-//		System.out.println(res);
+
 		for(int j=res ; j<=la;j++) {
 			System.out.print(arr[j] + " ");
 		}

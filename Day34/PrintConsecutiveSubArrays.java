@@ -17,7 +17,9 @@ public class PrintConsecutiveSubArrays {
 	}
 	
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) {   
+		
+		
 		Scanner scan =new Scanner(System.in);
 		int n= scan.nextInt();
 		int[] arr = new int[n];
