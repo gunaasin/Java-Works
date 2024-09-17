@@ -14,9 +14,7 @@ class Customer3{
 	
 	Customer3() { 
 
-		cId =345;
-		cName = "GuNa";
-		cNum = 423424;
+		
 	}
 	
 	
