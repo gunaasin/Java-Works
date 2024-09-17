@@ -36,14 +36,11 @@ class Customer{
 
 
 
-
-
-
-
 public class Day2 {
 
 	public static void main(String[] args) {
 		 Customer c = new Customer();
+		 
 		 c.setCustomerId(2324);
 		 c.setCustomerName("Guna");
 		 c.setCustomerNum(123321232);
