@@ -17,6 +17,11 @@ class Student{
 	
 	Student(String stName , int stID , int stNum){
 		this(stID);
+		print();
+	}
+   
+	void print() {
+		System.out.println("is the this reffering obj " + this);  // this reffer corrently reffering object to see in console!!!
 	}
 	
 	public String getName() {
@@ -28,6 +33,7 @@ class Student{
 	public int getNum() {
 		return stNum;
 	}
+	
 }
 
 
@@ -37,9 +43,15 @@ public class EncapsulationWithConstructorChaining {
 	public static void main(String[] args) {
 		
 		
-		 Student d = new Student("GuNa" , 96255 , 28436925); 
+		Student d = new Student("GuNa" , 96255 , 28436925);
+		Student d2 = new Student("G" , 9635 , 28425);
+		Student d3 = new Student("ewrG" , 9635 , 284245665);
+		Student d4 = new Student("efG" , 956635 , 28425);
+		 
 		 
 		 System.out.println(d.getName() +" " + d.getId() + " " + d.getNum());
+		System.out.println(d4);
+		 
 		
 	}
 
