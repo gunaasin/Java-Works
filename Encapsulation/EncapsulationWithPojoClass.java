@@ -71,7 +71,7 @@ public class EncapsulationWithPojoClass {
 		 System.out.println(e.getEmailId());
 		 System.out.println(e.getAddress());
 		
-
+         scan.close();
 	}
 
 }
