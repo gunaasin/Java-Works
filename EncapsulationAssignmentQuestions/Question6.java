@@ -56,11 +56,9 @@ public class Question6 {
 			System.out.println("Enter Customer Address: ");
 			scan.nextLine();
 			String cAddress = scan.nextLine();
-			
-			
+
 			Restaurant r = new Restaurant();
 			r.setData(id, fName, cEmail,cNum , cAddress);
-			
 			arr[i] = r;
 
 		}
