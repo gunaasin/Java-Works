@@ -110,6 +110,8 @@ public class Question3 {
 		System.out.println(c.getcPassword());
 		System.out.println(c.getcAddress());
 		
+		scan.close();
+		
 	}
 
 }

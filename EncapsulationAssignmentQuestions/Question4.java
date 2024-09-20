@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Coustomer3{
+class Customer3{
 	private int cId;
 	private String cName;
 	private String cEmail;
@@ -9,11 +9,11 @@ class Coustomer3{
 	private String cAddress;
 	
 	
-	public Coustomer3() {
+	public Customer3() {
 		
 	}
 	
-	public Coustomer3(int cId, String cName, String cEmail, long cNumber, String cPassword, String cAddress ) {
+	public Customer3(int cId, String cName, String cEmail, long cNumber, String cPassword, String cAddress ) {
 		this.cId =cId;
 		this.cName = cName;
 		this.cEmail = cEmail;
@@ -70,10 +70,10 @@ public class Question4 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter the number of Coustomer ! ");
+		System.out.println("Enter the number of Customer ! ");
 		int n = scan.nextInt();
 		
-		Coustomer3[] data = new Coustomer3[n];
+		Customer3[] data = new Customer3[n];
 		
 		for(int i=0;i<n;i++) {
 
@@ -102,7 +102,7 @@ public class Question4 {
 			System.out.println("Enter Customer Address: ");
 			String cAddress = scan.nextLine();
 			
-			Coustomer3 c = new Coustomer3();
+			Customer3 c = new Customer3();
 			c.setCId(cId);
 			c.setCName(cName);;
 			c.setCEmail(cEmail);
@@ -116,8 +116,8 @@ public class Question4 {
 		
 		
 		
-		for(Coustomer3 r :data) {
-			System.out.println("Coustomer INFO !");
+		for(Customer3 r :data) {
+			System.out.println("Customer INFO !");
 			System.out.println();
 			
 			System.out.println(r.getCId());

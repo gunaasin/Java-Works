@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Coustomer{
+class Customer1{
 	private int cId;
 	private String cName;
 	private String cEmail;
@@ -57,7 +57,7 @@ public class Question2 {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter how many Coustomers are there : ");
 		int n = scan.nextInt();
-		Customer[] arr = new Customer[n];
+		Customer1[] arr = new Customer1[n];
 		
 		for(int i=0;i<n;i++) {
 			
@@ -76,7 +76,7 @@ public class Question2 {
 			System.out.println("Enter Customer Address: ");
 			String cAddress = scan.nextLine();
 			
-			Customer c = new Customer();
+			Customer1 c = new Customer1();
 			c.setCId(cId);
 			c.setCName(cName);
 			c.setCEmail(cEmail);
@@ -87,7 +87,7 @@ public class Question2 {
 		}
 		
 		
-		for(Customer s:arr) {
+		for(Customer1 s:arr) {
 			System.out.println("Coustomer INFO !");
 			System.out.println();
 			

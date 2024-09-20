@@ -1,55 +1,46 @@
-
-
-class Customer{
-	private int cId;
-	private String cName;
-	private int cNum;
-	
-	public void setCustomerId(int cId) {
-		this.cId = cId;
-	}
-	public void setCustomerName(String cName) {
-		this.cName = cName;
-	}
-	public void setCustomerNum(int cNum) {
-		this.cNum = cNum;
-	}
-	
-	
-	public int getCustomerId() {
-		return cId;
-	}
-	public String getCustomerName() {
-		return cName;
-	}
-	public int getCustomerNum() {
-		return cNum;
-	}
-	
-	
-	
-	
-	
-}
-
-
-
-
+import java.util.ArrayList;
+import java.util.List;
 
 public class Day2 {
 
-	public static void main(String[] args) {
-		 Customer c = new Customer();
-		 
-		 c.setCustomerId(2324);
-		 c.setCustomerName("Guna");
-		 c.setCustomerNum(123321232);
-		 
-		 System.out.println(c.getCustomerId());
-		 System.out.println(c.getCustomerName());
-		 System.out.println(c.getCustomerNum());
-		
+    // Method to check if a number is prime
+    public static boolean isPrime(int n) {
+        if (n <= 1) return false;
+        for (int i = 2; i * i <= n; i++) {
+            if (n % i == 0) return false;
+        }
+        return true;
+    }
 
-	}
+    // Method to find all primes in the given range
+    public static List<Integer> primesInRange(int start, int end) {
+        List<Integer> primes = new ArrayList<>();
+        for (int i = start; i <= end; i++) {
+            if (isPrime(i)) {
+                primes.add(i);
+            }
+        }
+        return primes;
+    }
 
+    // Method to calculate the differences between consecutive primes
+    public static List<Integer> primeDifferences(int start, int end) {
+        List<Integer> primes = primesInRange(start, end);
+        List<Integer> differences = new ArrayList<>();
+
+        for (int i = 1; i < primes.size(); i++) {
+            differences.add(primes.get(i) - primes.get(i - 1));
+        }
+
+        return differences;
+    }
+
+    public static void main(String[] args) {
+//    	Scanner(Sy)
+        int start = 10;
+        int end = 50;
+
+        List<Integer> differences = primeDifferences(start, end);
+        System.out.println("Differences between consecutive primes: " + differences);
+    }
 }
