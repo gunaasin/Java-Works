@@ -10,7 +10,7 @@ class Customer2{
 	
 	
 	public Customer2(int cId, String cName, String cEmail, long cNumber, String cPassword, String cAddress) {
-		super();
+
 		this.cId = cId;
 		this.cName = cName;
 		this.cEmail = cEmail;
