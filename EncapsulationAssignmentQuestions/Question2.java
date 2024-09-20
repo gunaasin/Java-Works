@@ -60,6 +60,7 @@ public class Question2 {
 		Customer[] arr = new Customer[n];
 		
 		for(int i=0;i<n;i++) {
+			
 			System.out.println("Enter Customer ID: ");
 			int cId = scan.nextInt();
 			System.out.println("Enter Customer Name: ");
@@ -76,6 +77,7 @@ public class Question2 {
 			String cAddress = scan.nextLine();
 			
 			Customer c = new Customer();
+			
 			c.setCId(cId);
 			c.setCName(cName);
 			c.setCEmail(cEmail);
@@ -87,6 +89,7 @@ public class Question2 {
 		
 		
 		for(Customer s:arr) {
+			
 			System.out.println("Coustomer INFO !");
 			System.out.println();
 			

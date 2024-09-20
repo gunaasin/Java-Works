@@ -76,6 +76,7 @@ public class Question1 {
 		
 		
 		Customer c = new Customer();
+		
 		c.setCId(cId);
 		c.setCName(cName);
 		c.setCEmail(cEmail);
@@ -86,6 +87,7 @@ public class Question1 {
 		
 		System.out.println("Coustomer INFO !");
 		System.out.println();
+		
 		System.out.println(c.getCId());
 		System.out.println(c.getCName());
 		System.out.println(c.getCEmail());
