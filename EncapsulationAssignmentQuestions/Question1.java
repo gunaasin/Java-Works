@@ -84,10 +84,8 @@ public class Question1 {
 		c.setCPassword(cPassword);
 		c.setCAddress(cAddress);
 		
-		
 		System.out.println("Coustomer INFO !");
 		System.out.println();
-		
 		System.out.println(c.getCId());
 		System.out.println(c.getCName());
 		System.out.println(c.getCEmail());

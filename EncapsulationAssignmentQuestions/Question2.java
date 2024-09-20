@@ -77,7 +77,6 @@ public class Question2 {
 			String cAddress = scan.nextLine();
 			
 			Customer c = new Customer();
-			
 			c.setCId(cId);
 			c.setCName(cName);
 			c.setCEmail(cEmail);
@@ -89,7 +88,6 @@ public class Question2 {
 		
 		
 		for(Customer s:arr) {
-			
 			System.out.println("Coustomer INFO !");
 			System.out.println();
 			
