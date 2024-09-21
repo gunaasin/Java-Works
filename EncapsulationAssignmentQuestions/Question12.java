@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Menu{
+class Menu2{
 	private int id;
 	private String name;
 	private int price;
@@ -33,10 +33,16 @@ class Menu{
 	
 	
 }
-public class Question11 {
+public class Question12 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the number of Orders ");
+		int n= scan.nextInt();
+		Menu2[] arr = new  Menu2[n];
+			
+		for(int i=0;i<n;i++) {
+
 			System.out.println("Enter Id :");
 			int id = scan.nextInt();
 			System.out.println("Enter food Name : ");
@@ -49,17 +55,22 @@ public class Question11 {
 			String description = scan.nextLine();
 			
 			
-			Menu m = new Menu();
+			Menu2 m = new Menu2();
 			m.setId(id);
 			m.setName(name);;
 			m.setPrice(price);
 			m.setDescription(description);
-
-			System.out.println(m.getId());
-			System.out.println(m.getName());
-			System.out.println(m.getPrice());
-			System.out.println(m.getDescription());
-		
+			
+			arr[i]=m;
+		}
+			
+			
+		for(Menu2 s:arr) {
+			System.out.println(s.getId());
+			System.out.println(s.getName());
+			System.out.println(s.getPrice());
+			System.out.println(s.getDescription());
+		}
 		
 		
 
