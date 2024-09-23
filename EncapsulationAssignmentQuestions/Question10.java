@@ -16,7 +16,8 @@ class Restaurant5{
 		this.email=email;
 		this.phone=phone;
 		this.address=address;
-	}
+	} 
+	
 	
 	public void setId(int id) {
 		this.id=id;
@@ -33,6 +34,8 @@ class Restaurant5{
 	public void setAddress(String address) {
 		this.address=address;
 	}
+	
+	
 	
 	public int getId() {
 		return id;

@@ -60,7 +60,6 @@ public class Question13 {
 			int price = Integer.parseInt(list[2]);
 			String description = list[3];
 			
-			
 			Menu3 m = new Menu3(id,name,price,description);
 			arr[i]=m;
 		}

@@ -4,7 +4,8 @@ class Menu2{
 	private int id;
 	private String name;
 	private int price;
-	private String description;
+	private String description; 
+	
 	
 	public int getId() {
 		return id;

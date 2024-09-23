@@ -47,8 +47,7 @@ public class Question11 {
 			System.out.println("Enter the description :");
 			scan.nextLine();
 			String description = scan.nextLine();
-			
-			
+
 			Menu m = new Menu();
 			m.setId(id);
 			m.setName(name);;
