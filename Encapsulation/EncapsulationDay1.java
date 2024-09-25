@@ -16,17 +16,10 @@ class Bank{
 		return pinNumber;
 	}
 	
-	
 }
 
-
-
-
-
 public class EncapsulationDay1 {
-
 	public static void main(String[] args) {
-		
 		Bank bank = new Bank();
 		
 		bank.setAccountNumber(1141324);
