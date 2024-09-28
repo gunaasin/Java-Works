@@ -9,14 +9,20 @@ public class PrintWordsAccourMoreThenThreeTimesUsingMaps {
 		TreeMap<String , Integer> map= new TreeMap<String , Integer>();
 		
 		for(int i=0;i<ar.length;i++) {
-			if(map.containsKey(ar[i])) {
-				int c = map.get(ar[i]);
-				map.put(ar[i], ++c);
-				
-			}else {
-				map.put(ar[i], 1);
-				
-			}
+			
+			
+	// this code to optimize to find the key return value , but not find the key return default value 		
+			int  c = map.getOrDefault(ar[i], 0);
+			map.put(ar[i], ++c);		
+			
+//			if(map.containsKey(ar[i])) {
+//				int c = map.get(ar[i]);
+//				map.put(ar[i], ++c);
+//				
+//			}else {
+//				map.put(ar[i], 1);
+//				
+//			}
 		}
 		
 //		System.out.println(map);
