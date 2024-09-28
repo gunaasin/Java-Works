@@ -21,7 +21,7 @@ public class Maps {
 			
 		}
 		
-		Set<Character> keys = map.keySet();
+		Set<Character> keys = map.keySet(); //  this set represent the no duplicates 
 		
 		for(Character res :keys ) {
 			int n = map.get(res);
