@@ -19,10 +19,9 @@ public class CountPairsUsingMaps {
 		 
 		 int pairs = 0;
 		 
-		 Collection<Integer> Keys = map.keySet();
-		 for(int key : Keys) {
-			 int n = map.get(key);
-			 pairs += n/2;
+		 Collection<Integer> value = map.values();
+		 for(int v : value) { // this time only want the values not a key   
+			 pairs += v/2;  // find a pairs /2 --> like 1 1 1 1 2 3 3  each same number make one pair so 6/2 = 3 pairs 
 		 }
 		 
 		 System.out.println(pairs);
