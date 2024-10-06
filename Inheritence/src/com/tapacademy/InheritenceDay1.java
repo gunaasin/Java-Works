@@ -1,5 +1,6 @@
 package com.tapacademy;
 class Parent {
+	
 	float hight = 5.8f;
 	String colour = "brown";
 	String hairType = "normal + kerly";
@@ -21,9 +22,6 @@ class child extends Parent{
 }
 
 public class InheritenceDay1 {
-	
-	
-
 	public static void main(String[] args) {
 		child c = new child();
 		System.out.println(c.hight);
