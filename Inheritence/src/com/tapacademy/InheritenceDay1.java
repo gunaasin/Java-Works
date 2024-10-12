@@ -17,7 +17,10 @@ class Parent {
 }
 
 
+
 class child extends Parent{
+	
+	
 	//extend the all behaviour like a parent this one is the example for a inheritence 
 }
 
@@ -30,6 +33,8 @@ public class InheritenceDay1 {
 		c.beheviour();
 		c.activity();
 
+		
+	
 	}
 
 }
