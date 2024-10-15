@@ -73,6 +73,8 @@ class book{
 
 
 class student{
+	
+	//composition
 	 heart h = new heart("noFeelings" , "allMightteePush");
 	 brain b = new brain("reviceEveryDay", "realMe");
 	 
@@ -108,7 +110,7 @@ public class AssignmentQuestion {
 		System.out.println(s.h.getFeelings());
 		System.out.println(s.h.getPain());
 
-		
+		// Accrication
 		bike b1 = new bike("RR3TEN" ,170);
 		book b2 = new book("Java", "Jamesgosling");
 		
@@ -116,6 +118,8 @@ public class AssignmentQuestion {
 		s.hasAbook(b2);
 		
 		
+		
+//		accrication + composition = assosiation
 
 	}
 
