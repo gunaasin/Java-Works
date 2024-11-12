@@ -76,6 +76,8 @@ public class program1 {
 		c.permit(c1);
 		c.permit(c2);
 		
+		c1.add();
+		
 		
 		
 
