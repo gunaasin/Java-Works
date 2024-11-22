@@ -29,12 +29,13 @@ class auto{
 public class SecondPro {
 
 	public static void main(String[] args) {
+		
 		System.out.println("Connection est1");
 		auto a = new auto();
 		try {
 			a.process();	
 		}catch (Exception e) {
-			System.out.println("method in main");
+			e.getMessage();
 		}
 		
 		System.out.println("Connection ter2");

@@ -1,5 +1,3 @@
-package com.tapacademy;
-
 
 
 class parent{
